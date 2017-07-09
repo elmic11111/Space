@@ -8,7 +8,7 @@ from wsgiref.simple_server import make_server
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
-# Handler 
+# Handler
 LOG_FILE = '/opt/python/log/sample-app.log'
 handler = logging.handlers.RotatingFileHandler(LOG_FILE, maxBytes=1048576, backupCount=5)
 handler.setLevel(logging.INFO)
@@ -110,11 +110,11 @@ welcome = """
 </head>
 <body id="sample">
   <div class="textColumn">
-    <h1>Congratulations</h1>
+    <h1>BOO YA !!</h1>
     <p>Your first AWS Elastic Beanstalk Python Application is now running on your own dedicated environment in the AWS Cloud</p>
   </div>
-  
-  <div class="linksColumn"> 
+
+  <div class="linksColumn">
     <h2>What's Next?</h2>
     <ul>
     <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/">AWS Elastic Beanstalk overview</a></li>
